@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hjhz.testdemo.fragment.Part4Fragment">
+
+    <com.hjhz.testdemo.view.swipemenulistview.SwipeMenuListView
+        android:id="@+id/swip_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/list_bg"
+        android:dividerHeight="1px"
+        android:scrollbars="none">
+
+    </com.hjhz.testdemo.view.swipemenulistview.SwipeMenuListView>
+
+</FrameLayout>

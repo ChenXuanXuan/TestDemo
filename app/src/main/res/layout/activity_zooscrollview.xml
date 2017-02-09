@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.hjhz.testdemo.view.ZoomScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         app:zoomId="@+id/iv_zoom"
+         app:maxZoom="150dp">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="1000dp"
+             android:minHeight="1000dp"
+             android:orientation="vertical">
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="200dp"
+                 android:id="@+id/iv_zoom"
+                 android:scaleType="centerCrop"
+                 android:src="@drawable/img1"/>
+         </LinearLayout>
+     </com.hjhz.testdemo.view.ZoomScrollView>
+
+</LinearLayout>

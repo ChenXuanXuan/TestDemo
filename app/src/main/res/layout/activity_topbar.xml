@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.hjhz.testdemo.view.mytopbar.Topbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        custom:leftBackground="@color/colorAccent"
+        custom:leftText="返回"
+        custom:leftTextCilor="@color/lightblue"
+        custom:rightBackground="@color/colorAccent"
+        custom:rightText="更多"
+        custom:rightTextCilor="@color/lightblue"
+        custom:titleText="我是标题"
+        custom:titleTextCilor="@color/lightblue"
+        custom:titleTextSize="10sp">
+    </com.hjhz.testdemo.view.mytopbar.Topbar>
+
+    <ImageButton
+        android:id="@+id/v_zidingyi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/baoliao_wenzhen"
+        android:tint="@color/lightblue"
+        android:tintMode="add"></ImageButton>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"
+        android:elevation="100dp"
+        custom:cardBackgroundColor="@color/lightblue"
+        custom:cardCornerRadius="14dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="我是卡片"
+            android:textSize="16sp"/>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_desk">
+    <ImageView
+        android:id="@+id/iv_desk"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/icon"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="清风拂山岗，明月照大江"/>
+</LinearLayout>
